@@ -1,0 +1,111 @@
+{
+  "errors": [],
+  "warnings": [],
+  "facts": {
+    "skill_root": ".",
+    "discovery_entry": ".agents/skills/exponential-agency-colleague",
+    "layout": "published-repo",
+    "master_body_tokens": 3267,
+    "master_budget": 3850,
+    "master_capabilities": 5,
+    "references": {
+      "reference-azhar-exponential-gap.md": {
+        "tokens": 3089,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 8,
+        "budget": 7543
+      },
+      "reference-brand-whole-earth-discipline.md": {
+        "tokens": 2922,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 9,
+        "budget": 7800
+      },
+      "reference-christensen-innovators-dilemma.md": {
+        "tokens": 2832,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 11,
+        "budget": 8275
+      },
+      "reference-diamandis-kotler-abundance.md": {
+        "tokens": 2877,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 19,
+        "budget": 9838
+      },
+      "reference-diamandis-kotler-bold.md": {
+        "tokens": 2736,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 10,
+        "budget": 8043
+      },
+      "reference-diamandis-kotler-convergence.md": {
+        "tokens": 2583,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 14,
+        "budget": 8912
+      },
+      "reference-diamandis-kotler-we-are-as-gods.md": {
+        "tokens": 3082,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 9,
+        "budget": 7800
+      },
+      "reference-kelly-inevitable.md": {
+        "tokens": 2769,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 12,
+        "budget": 8496
+      },
+      "reference-kelly-technium.md": {
+        "tokens": 2752,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 14,
+        "budget": 8912
+      },
+      "reference-kurzweil-singularity-nearer.md": {
+        "tokens": 2858,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 8,
+        "budget": 7543
+      },
+      "reference-mcafee-more-from-less.md": {
+        "tokens": 2672,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 15,
+        "budget": 9109
+      },
+      "reference-roslings-factfulness.md": {
+        "tokens": 2736,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 11,
+        "budget": 8275
+      }
+    },
+    "books": 12
+  }
+}

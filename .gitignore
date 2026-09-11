@@ -1,0 +1,27 @@
+# Platform and editor files
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+__pycache__/
+*.py[cod]
+.venv/
+
+# Private inputs and temporary extraction/build artifacts
+/sources/
+/books/
+/input/
+/tmp/
+/build/
+/ocr/
+full_text.txt
+metadata.json
+*.pdf
+*.epub
+*.mobi
+*.azw
+*.azw3
+*.docx
+*.rtf
+*.log

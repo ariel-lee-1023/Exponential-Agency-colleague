@@ -1,0 +1,1336 @@
+{
+  "library": "exponential-agency-colleague",
+  "generated": "2026-09-11",
+  "source_count": 12,
+  "layout": "published-repo",
+  "mode": "text",
+  "depth": "study",
+  "token_estimator": "bookrefs.tokens script-density; estimate, not model billing",
+  "initial_corpus_estimated_tokens": 2009393,
+  "sources": [
+    {
+      "title": "Abundance: The Future Is Better Than You Think — Peter H. Diamandis and Steven Kotler",
+      "source_context": "2012",
+      "input": {
+        "filename": "Abundance-The-Future-Is-Better-Than-You-Think-Peter-H-Diamandis-Steven-Kotler.md",
+        "sha256": "a3fcb50cbf0edb716384ed793d2a5d07b751450cf02aefb3426e6694d747c05c",
+        "format": "md",
+        "extracted_characters": 832001,
+        "estimated_tokens": 208000,
+        "extractor_detected_chapters": 2,
+        "corpus_lines": [
+          4,
+          5756
+        ]
+      },
+      "reference": "references/reference-diamandis-kotler-abundance.md",
+      "book_sections": 19,
+      "study_text_budget": 9838,
+      "reference_estimated_tokens": 2877,
+      "retained_framework_blocks": [
+        "The Lesson of Aluminum",
+        "Abundance pyramid",
+        "Catallaxy",
+        "Cognitive biases and negative news selection",
+        "Cumulative progress",
+        "Exponential price-performance",
+        "Technology portfolio",
+        "Tools of cooperation",
+        "Water as a system",
+        "Food productivity",
+        "DIY innovator",
+        "Technophilanthropists",
+        "Rising Billion",
+        "Dematerialization and demonetization",
+        "Energy poverty",
+        "Education abundance",
+        "Predictive, Personalized, Preventive, and Participatory medicine",
+        "Freedom and connection",
+        "Incentive competitions",
+        "Power of constraints",
+        "Fixed-price solutions",
+        "Risk, failure, and supercredibility",
+        "Adjacent possible"
+      ],
+      "framework_section_tokens": 2149,
+      "tokens_per_framework_block": 93.43,
+      "omitted_or_compressed": "Compressed sector case catalogs, historical graphs, and technology forecasts into the needs/dependency model. Omitted the reference-section raw data, promotional hub instructions, long biographies, and endnotes as runtime material. The legendary opening aluminum anecdote is not relied on as historical proof.",
+      "recorded_keyword_probes": [
+        {
+          "source": "Abundance-The-Future-Is-Better-Than-You-Think-Peter-H-Diamandis-Steven-Kotler.md",
+          "queries": [
+            "A Practical Definition",
+            "Lesson of Aluminum",
+            "Pursuit of Catallaxy",
+            "Technophilanthropists",
+            "Power of Incentive Competitions",
+            "Fixed-Price Solutions",
+            "Power of Constraints",
+            "DANGERS OF THE EXPONENTIALS"
+          ],
+          "char_spans": [
+            [
+              36252,
+              38254
+            ],
+            [
+              13306,
+              15304
+            ],
+            [
+              48218,
+              50218
+            ],
+            [
+              7612,
+              9613
+            ],
+            [
+              497902,
+              499913
+            ],
+            [
+              510614,
+              512615
+            ],
+            [
+              507073,
+              509073
+            ],
+            [
+              9613,
+              10056
+            ]
+          ],
+          "chars": 14456
+        }
+      ]
+    },
+    {
+      "title": "Bold: How to Go Big, Create Wealth and Impact the World — Peter H. Diamandis and Steven Kotler",
+      "source_context": "2015",
+      "input": {
+        "filename": "Bold-How-to-Go-Big-Create-Wealth-and-Impact-the-World-Peter-H-Diamandis-Steven-K.md",
+        "sha256": "790b81018189d3f8c1e5f0349aca5eb0b6b495bd84203d2c2eff914ad9b71013",
+        "format": "md",
+        "extracted_characters": 605969,
+        "estimated_tokens": 151492,
+        "extractor_detected_chapters": 1,
+        "corpus_lines": [
+          5760,
+          8282
+        ]
+      },
+      "reference": "references/reference-diamandis-kotler-bold.md",
+      "book_sections": 10,
+      "study_text_budget": 8043,
+      "reference_estimated_tokens": 2736,
+      "retained_framework_blocks": [
+        "Six Ds of Exponentials",
+        "Deception",
+        "Disruption in Bold",
+        "Demonetization and dematerialization",
+        "Exponential road maps, hype, and interfaces",
+        "Five technology domains",
+        "Skunk works",
+        "10x thinking",
+        "Autonomy, mastery, and purpose",
+        "Google's Eight Innovation Principles",
+        "Flow triggers",
+        "Group flow",
+        "Line of super-credibility",
+        "Staging toward bold",
+        "Stone soup",
+        "Peter's Laws and billionaire cases",
+        "Crowdsourcing tasks",
+        "Creative/operational assets and discovery insights",
+        "Crowdfunding types",
+        "Campaign design",
+        "Threshold and fulfillment economics",
+        "Building communities",
+        "Incentive competitions"
+      ],
+      "framework_section_tokens": 2015,
+      "tokens_per_framework_block": 87.61,
+      "omitted_or_compressed": "Compressed the detailed crowdfunding campaign checklist and platform catalog; retained all twelve planning topics, four funding types, and the eight named Google principles. Peter’s Laws and the fourteen Kelly Johnson rules are represented through the relevant mindset/skunk-works mechanisms rather than reproduced as full lists. Omitted marketing links and historical campaign success percentages.",
+      "recorded_keyword_probes": [
+        {
+          "source": "Bold-How-to-Go-Big-Create-Wealth-and-Impact-the-World-Peter-H-Diamandis-Steven-K.md",
+          "queries": [
+            "^#### The Six Ds",
+            "^#### The Last Three Ds",
+            "^#### The Secrets of Skunk: Part",
+            "^#### Google’s Eight Innovation Principles",
+            "^#### Flow’s Psychological Triggers",
+            "^#### Staging Toward Bold",
+            "^#### How to Make Stone Soup",
+            "^####.*Incentive",
+            "^####.*Crowd"
+          ],
+          "char_spans": [
+            [
+              21548,
+              23543
+            ],
+            [
+              26841,
+              28843
+            ],
+            [
+              135015,
+              137026
+            ],
+            [
+              159027,
+              161048
+            ],
+            [
+              169081,
+              171095
+            ],
+            [
+              194391,
+              196395
+            ],
+            [
+              197993,
+              200000
+            ],
+            [
+              456735,
+              458742
+            ],
+            [
+              295778,
+              297775
+            ]
+          ],
+          "chars": 18058
+        }
+      ]
+    },
+    {
+      "title": "Exponential: How Accelerating Technology Is Leaving Us Behind and What to Do About It — Azeem Azhar",
+      "source_context": "2021",
+      "input": {
+        "filename": "Exponential-How-the-next-digital-revolution-will-rewire-life-on-Earth-Azeem-Azha.md",
+        "sha256": "b9ab56a615291c4b7c73e813e23ffc2ae5a56b05c81283f487220ec3cf36b870",
+        "format": "md",
+        "extracted_characters": 722204,
+        "estimated_tokens": 180551,
+        "extractor_detected_chapters": 8,
+        "corpus_lines": [
+          8286,
+          9218
+        ]
+      },
+      "reference": "references/reference-azhar-exponential-gap.md",
+      "book_sections": 8,
+      "study_text_budget": 7543,
+      "reference_estimated_tokens": 3089,
+      "retained_framework_blocks": [
+        "Operational definition of exponential technology",
+        "Compounding versus adoption",
+        "Four domains",
+        "Wright's Law",
+        "Standardization and recombination",
+        "Feedback loops",
+        "Differential adaptation",
+        "Institutions shape the technology's effects",
+        "Network effects",
+        "Intangible economy",
+        "Increasing returns and superstar firms",
+        "Competition response",
+        "Automation and bargaining power",
+        "Flexicurity",
+        "Universal basic income",
+        "Adaptation capacity",
+        "The World Is Spiky",
+        "Local production and global connection",
+        "Security and interdependence",
+        "Private governance of public life",
+        "Transparency",
+        "Interoperability",
+        "Rights",
+        "Commonality"
+      ],
+      "framework_section_tokens": 2063,
+      "tokens_per_framework_block": 85.96,
+      "omitted_or_compressed": "Compressed detailed corporate histories, geopolitical examples, and national policy examples. Retained all eight chapter domains, the four policy principles, and the defined curve/learning mechanisms. No complete policy manual or present-day benefits schedule is claimed.",
+      "recorded_keyword_probes": [
+        {
+          "source": "Exponential-How-the-next-digital-revolution-will-rewire-life-on-Earth-Azeem-Azha.md",
+          "queries": [
+            "10 per cent",
+            "Wright.s law",
+            "^# The Exponential Gap",
+            "increasing returns",
+            "intangible",
+            "interoperab",
+            "solidarity",
+            "^# Exponential Citizens"
+          ],
+          "char_spans": [
+            [
+              43633,
+              45624
+            ],
+            [
+              98642,
+              100634
+            ],
+            [
+              135164,
+              137165
+            ],
+            [
+              221460,
+              223458
+            ],
+            [
+              211447,
+              213437
+            ],
+            [
+              112267,
+              114258
+            ],
+            [
+              450777,
+              452779
+            ]
+          ],
+          "chars": 13965
+        },
+        {
+          "source": "Exponential-How-the-next-digital-revolution-will-rewire-life-on-Earth-Azeem-Azha.md",
+          "queries": [
+            "technologies develop",
+            "four.*domain",
+            "social contract",
+            "universal basic",
+            "portability",
+            "deliberative",
+            "commons",
+            "spiky world",
+            "countervailing",
+            "right to repair"
+          ],
+          "char_spans": [
+            [
+              46662,
+              48662
+            ],
+            [
+              75609,
+              77735
+            ],
+            [
+              332460,
+              334455
+            ],
+            [
+              505656,
+              507643
+            ]
+          ],
+          "chars": 8108
+        }
+      ]
+    },
+    {
+      "title": "Factfulness: Ten Reasons We're Wrong About the World—and Why Things Are Better Than You Think — Hans Rosling, Ola Rosling, and Anna Rosling Rönnlund",
+      "source_context": "2018",
+      "input": {
+        "filename": "Factfulness-Hans-Rosling-Ola-Rosling-etc.md",
+        "sha256": "d522c6b809495d59176d7c857e8ff64882d1e0573e6f3f54d1522aa8de5c3428",
+        "format": "md",
+        "extracted_characters": 511518,
+        "estimated_tokens": 127879,
+        "extractor_detected_chapters": 0,
+        "corpus_lines": [
+          9222,
+          11445
+        ]
+      },
+      "reference": "references/reference-roslings-factfulness.md",
+      "book_sections": 11,
+      "study_text_budget": 8275,
+      "reference_estimated_tokens": 2736,
+      "retained_framework_blocks": [
+        "Look for the majority",
+        "Four income levels",
+        "The view from up here",
+        "Bad and better",
+        "Selective reporting",
+        "Question the curve",
+        "S-bends and saturation",
+        "Population momentum",
+        "Fear versus danger",
+        "Attention filter",
+        "Compare and divide",
+        "80/20 rule",
+        "Invisible needs",
+        "Question categories",
+        "Dollar Street",
+        "Slow change is not no change",
+        "Update knowledge",
+        "Toolbox rather than hammer",
+        "Numbers and reality",
+        "Find causes and systems",
+        "Credit the system",
+        "Take a breath",
+        "Step-by-step action",
+        "Five global risks",
+        "Teach and institutionalize correction"
+      ],
+      "framework_section_tokens": 2000,
+      "tokens_per_framework_block": 80.0,
+      "omitted_or_compressed": "Retained all ten instincts and the practice chapter. Compressed multiple autobiographical illustrations into one reconstructed worked case; omitted quiz answers, country rankings, the full statistical appendix, and repeated historical data. Income bands retain their publication context.",
+      "recorded_keyword_probes": [
+        {
+          "source": "Factfulness-Hans-Rosling-Ola-Rosling-etc.md",
+          "queries": [
+            "^## Factfulness$",
+            "^## Bad and Better",
+            "^## The Four Levels",
+            "Level 1",
+            "^## S-Bends",
+            "^## The 80/20 Rule",
+            "^## Find Better Categories",
+            "^# THE URGENCY INSTINCT",
+            "^## The Five Global Risks"
+          ],
+          "char_spans": [
+            [
+              67665,
+              69659
+            ],
+            [
+              95577,
+              97574
+            ],
+            [
+              51626,
+              53613
+            ],
+            [
+              128439,
+              130429
+            ],
+            [
+              189922,
+              191919
+            ],
+            [
+              220078,
+              222083
+            ],
+            [
+              327512,
+              329514
+            ],
+            [
+              352599,
+              354603
+            ]
+          ],
+          "chars": 15976
+        }
+      ]
+    },
+    {
+      "title": "More from Less: The Surprising Story of How We Learned to Prosper Using Fewer Resources—and What Happens Next — Andrew McAfee",
+      "source_context": "2019",
+      "input": {
+        "filename": "More-From-Less-Andrew-McAfee.md",
+        "sha256": "82bd74a5c3b155cc4756dc605519b6c7bf7aff3a2c34525dccb7f67fca096562",
+        "format": "md",
+        "extracted_characters": 598381,
+        "estimated_tokens": 149595,
+        "extractor_detected_chapters": 4,
+        "corpus_lines": [
+          11449,
+          13309
+        ]
+      },
+      "reference": "references/reference-mcafee-more-from-less.md",
+      "book_sections": 15,
+      "study_text_budget": 9109,
+      "reference_estimated_tokens": 2672,
+      "retained_framework_blocks": [
+        "Malthusian constraints",
+        "Industrial power and its costs",
+        "Earth Day debates",
+        "Jevons paradox",
+        "Dematerialization",
+        "Relative and absolute change",
+        "Production and consumption accounting",
+        "CRIB",
+        "Recycling versus dematerialization",
+        "Limits on harms",
+        "More value from fewer inputs",
+        "Substitution and evaporation",
+        "Capitalism and competition",
+        "Negative externalities",
+        "Public awareness",
+        "Responsive government",
+        "Four Horsemen of the Optimist",
+        "Global extension is a hypothesis to test",
+        "Concentration",
+        "Disconnection and social capital",
+        "Conditional optimism",
+        "Interventions that preserve and correct",
+        "Measurable commitments"
+      ],
+      "framework_section_tokens": 1963,
+      "tokens_per_framework_block": 85.35,
+      "omitted_or_compressed": "Compressed Industrial Era narratives, detailed commodity series, and the full wager history; retained the testable distinction between quantities and prices. Omitted historical numerical forecasts and investment implications. CRIB remains an attributed causal critique, not blanket advice against consumption reduction or recycling.",
+      "recorded_keyword_probes": [
+        {
+          "source": "More-From-Less-Andrew-McAfee.md",
+          "queries": [
+            "^# The Dematerialization Surprise",
+            "absolute",
+            "offshor",
+            "^# CRIB Notes",
+            "four horsemen",
+            "Jevons",
+            "externalit",
+            "^# Interventions",
+            "disconnection"
+          ],
+          "char_spans": [
+            [
+              122085,
+              124097
+            ],
+            [
+              44294,
+              46282
+            ],
+            [
+              137914,
+              139906
+            ],
+            [
+              8371,
+              10364
+            ],
+            [
+              79051,
+              81037
+            ],
+            [
+              230267,
+              232257
+            ],
+            [
+              408828,
+              410823
+            ],
+            [
+              208273,
+              210266
+            ]
+          ],
+          "chars": 15949
+        }
+      ]
+    },
+    {
+      "title": "The Future Is Faster Than You Think: How Converging Technologies Are Transforming Business, Industries, and Our Lives — Peter H. Diamandis and Steven Kotler",
+      "source_context": "2020",
+      "input": {
+        "filename": "The-Future-Is-Faster-Than-You-Think-How-Converging-Technologies-Are-Transforming.md",
+        "sha256": "24eada9eba378ce724f080528d4398f2233f8a8cd090a7d8bb25b05de2eda8d5",
+        "format": "md",
+        "extracted_characters": 745365,
+        "estimated_tokens": 186341,
+        "extractor_detected_chapters": 0,
+        "corpus_lines": [
+          13313,
+          15684
+        ]
+      },
+      "reference": "references/reference-diamandis-kotler-convergence.md",
+      "book_sections": 14,
+      "study_text_budget": 8912,
+      "reference_estimated_tokens": 2583,
+      "retained_framework_blocks": [
+        "Convergence",
+        "Exponential technologies",
+        "Technology landscape, part I",
+        "Technology landscape, part II",
+        "Seven accelerators",
+        "Saved time",
+        "Availability of capital and demonetization",
+        "More genius and communications abundance",
+        "New business models and longer lives",
+        "Shopping",
+        "Advertising",
+        "Entertainment",
+        "Education",
+        "Healthcare",
+        "Longevity and nine hallmarks",
+        "Longevity escape velocity",
+        "Insurance, finance, and real estate",
+        "Food",
+        "Threats and solutions",
+        "Vision, Prevention, Governance",
+        "Five Great Migrations",
+        "Abundance revisited"
+      ],
+      "framework_section_tokens": 1889,
+      "tokens_per_framework_block": 85.86,
+      "omitted_or_compressed": "Compressed industry case catalogs and the five migrations; retained all fourteen chapter roles, seven accelerators, three risk-response categories, and the historical nine hallmarks of aging. Omitted launch schedules and commercial claims as current evidence. No benchmark or health protocol is reconstructed.",
+      "recorded_keyword_probes": [
+        {
+          "source": "The-Future-Is-Faster-Than-You-Think-How-Converging-Technologies-Are-Transforming.md",
+          "queries": [
+            "^##### Conerging Technology",
+            "^##### Force #1",
+            "^##### Force #2",
+            "^##### Force #: New Business Models",
+            "^##### The Nine Horsemen",
+            "^##### Vision$",
+            "^##### Governance$",
+            "^## The Five Great Migrations"
+          ],
+          "char_spans": [
+            [
+              13895,
+              15901
+            ],
+            [
+              141181,
+              143175
+            ],
+            [
+              146949,
+              148943
+            ],
+            [
+              168755,
+              170769
+            ],
+            [
+              326681,
+              328684
+            ],
+            [
+              445713,
+              447705
+            ],
+            [
+              450566,
+              452562
+            ],
+            [
+              455278,
+              457286
+            ]
+          ],
+          "chars": 16007
+        }
+      ]
+    },
+    {
+      "title": "The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future — Kevin Kelly",
+      "source_context": "2016",
+      "input": {
+        "filename": "The-Inevitable-Kevin-Kelly.md",
+        "sha256": "093d5815cbfc7c0947b1434fd527ede9d095b03b60d5e641b4ae582d12545199",
+        "format": "md",
+        "extracted_characters": 667255,
+        "estimated_tokens": 166813,
+        "extractor_detected_chapters": 0,
+        "corpus_lines": [
+          15688,
+          17588
+        ]
+      },
+      "reference": "references/reference-kelly-inevitable.md",
+      "book_sections": 12,
+      "study_text_budget": 8496,
+      "reference_estimated_tokens": 2769,
+      "retained_framework_blocks": [
+        "Becoming",
+        "Protopia",
+        "Perpetual learning",
+        "Cognifying",
+        "Cheap parallel computation, big data, better algorithms",
+        "Human–machine complementarity",
+        "Changing work",
+        "Flowing",
+        "Eight generatives",
+        "Immediacy, personalization, interpretation, authenticity",
+        "Accessibility, embodiment, patronage, discoverability",
+        "Screening",
+        "Access over ownership",
+        "Platform synergy and clouds",
+        "Sharing, cooperation, collaboration, collectivism",
+        "Hybrid organization",
+        "Scarcity of attention",
+        "Personalization and discovery",
+        "Recombination",
+        "More senses, intimacy, and immersion",
+        "Quantified self",
+        "Reciprocal transparency",
+        "Abundant answers, valuable questions",
+        "Wikipedia and collective knowledge",
+        "Beginning"
+      ],
+      "framework_section_tokens": 2101,
+      "tokens_per_framework_block": 84.04,
+      "omitted_or_compressed": "Retained all twelve verbs, eight generatives, and four work categories. Compressed media anecdotes, self-tracking examples, and product catalogs. Historical centaur-chess results are not reproduced as current rankings or universal superiority claims.",
+      "recorded_keyword_probes": [
+        {
+          "source": "The-Inevitable-Kevin-Kelly.md",
+          "queries": [
+            "protopia",
+            "generative",
+            "^### COGNIFYING",
+            "^### FLOWING",
+            "^### FILTERING",
+            "^### REMIXING",
+            "^### TRACKING",
+            "^### QUESTIONING"
+          ],
+          "char_spans": [
+            [
+              28623,
+              30611
+            ],
+            [
+              133167,
+              135157
+            ],
+            [
+              58367,
+              60361
+            ],
+            [
+              119223,
+              121214
+            ],
+            [
+              324236,
+              326229
+            ],
+            [
+              380370,
+              382362
+            ],
+            [
+              469704,
+              471696
+            ],
+            [
+              531002,
+              532997
+            ]
+          ],
+          "chars": 15935
+        }
+      ]
+    },
+    {
+      "title": "The Innovator's Dilemma — Clayton M. Christensen",
+      "source_context": "2000 HarperBusiness; original 1997",
+      "input": {
+        "filename": "The-Innovators-Dilemma-Clayton-M-Christensen.md",
+        "sha256": "c5214c1f02b5489d349ba2a8750512a62cd5be3e8545ba2c7de82f844221c8c2",
+        "format": "md",
+        "extracted_characters": 16955,
+        "estimated_tokens": 4238,
+        "extractor_detected_chapters": 0,
+        "corpus_lines": [
+          17592,
+          18434
+        ]
+      },
+      "reference": "references/reference-christensen-innovators-dilemma.md",
+      "book_sections": 11,
+      "study_text_budget": 8275,
+      "reference_estimated_tokens": 2832,
+      "retained_framework_blocks": [
+        "Sustaining technologies",
+        "Disruptive technologies",
+        "Performance trajectories",
+        "Value networks",
+        "Resource allocation",
+        "Disk-drive evidence",
+        "Hydraulic excavation",
+        "What goes up, can't go down",
+        "Resource dependence",
+        "Match organizational size to market size",
+        "Markets that do not yet exist cannot be analyzed conventionally",
+        "Discovery-driven planning",
+        "Agnostic marketing",
+        "Resources",
+        "Processes",
+        "Values",
+        "Capabilities become disabilities",
+        "Creating new capabilities",
+        "Acquisition integration",
+        "Autonomy that matters",
+        "Performance oversupply",
+        "Product life cycle",
+        "Electric-vehicle case study",
+        "Situational management"
+      ],
+      "framework_section_tokens": 2066,
+      "tokens_per_framework_block": 86.08,
+      "omitted_or_compressed": "Retained all eleven chapter roles, sustaining/disruptive distinction, value networks, performance trajectories, resource dependence, resources/processes/values, organizational alternatives, discovery-driven planning, and agnostic marketing. Compressed detailed disk-drive tables, notes, book-group questions, and electric-vehicle numerical assumptions. No later Christensen framework is silently imported.",
+      "recorded_keyword_probes": [],
+      "recovery": {
+        "filename": "The Innovator’s Dilemma (Clayton M. Christensen).pdf",
+        "sha256": "bf045f856f05d62fc93ef1c7463cd9ff084d4358c14edeba9682aa7df5e82cdc",
+        "method": "PyMuPDF rendering at 150 dpi and Tesseract OCR, all 319 pages",
+        "physical_pages": 319,
+        "recovered_characters": 594353,
+        "recovered_text_sha256": "51de5f7356ac38ceb98d42325428c17fc311145bc1f754ada57ae3960ce19f8a",
+        "recorded_keyword_probes": [
+          {
+            "source": "christensen-recovered.txt",
+            "char_spans": [
+              [
+                252882,
+                254951
+              ],
+              [
+                105248,
+                107311
+              ],
+              [
+                382483,
+                384549
+              ],
+              [
+                384989,
+                387057
+              ],
+              [
+                421623,
+                423693
+              ],
+              [
+                131218,
+                133277
+              ],
+              [
+                94974,
+                97030
+              ],
+              [
+                469767,
+                471826
+              ],
+              [
+                256081,
+                258147
+              ],
+              [
+                225036,
+                227091
+              ]
+            ],
+            "chars": 20631
+          }
+        ],
+        "limits": "OCR/text-layer errors remain possible. Targeted prose, contents, and edition checks; no pixel-level verification of every page.",
+        "visual_check": "PDF page 218, printed page 187, inspected against OCR; resources/processes passage agrees. Contents on PDF pages 5–6 and copyright page 4 checked in OCR."
+      }
+    },
+    {
+      "title": "The Singularity Is Nearer: When We Merge with AI — Ray Kurzweil",
+      "source_context": "2024",
+      "input": {
+        "filename": "The-Singularity-is-Nearer---When-We-Merge-with-AI-Ray-Kurzweil.md",
+        "sha256": "c34f90ef9138cf8e898c245b15d33c64f2539f01ba560d09f15643a98811882c",
+        "format": "md",
+        "extracted_characters": 1091819,
+        "estimated_tokens": 272954,
+        "extractor_detected_chapters": 9,
+        "corpus_lines": [
+          18438,
+          26450
+        ]
+      },
+      "reference": "references/reference-kurzweil-singularity-nearer.md",
+      "book_sections": 8,
+      "study_text_budget": 7543,
+      "reference_estimated_tokens": 2858,
+      "retained_framework_blocks": [
+        "Law of accelerating returns",
+        "Price-performance of computation",
+        "Logarithmic scale",
+        "Six epochs",
+        "Forecast dates",
+        "Symbolic and connectionist approaches",
+        "Neural-network learning",
+        "Hierarchical neocortex",
+        "Remaining AI deficiencies",
+        "Turing-test criterion",
+        "Extending the neocortex into the cloud",
+        "Consciousness and the hard problem",
+        "Pattern identity and You 2",
+        "After Life and recreated personalities",
+        "Historical improvement",
+        "Information applied to physical needs",
+        "Task displacement and creation",
+        "Benefits beyond measured income",
+        "Biology as an information technology",
+        "Longevity escape velocity",
+        "Nanotechnology and replacement",
+        "Promise and peril",
+        "Alignment and governance",
+        "Cassandra dialogue"
+      ],
+      "framework_section_tokens": 2127,
+      "tokens_per_framework_block": 88.62,
+      "omitted_or_compressed": "Compressed historical charts, architecture tutorials, consciousness dialogues, employment examples, health proposals, and machine-price appendix. Retained forecast definitions and dates with boundaries. Excluded personal medical protocols, unsupported certainty about identity continuity, and token-subset enumeration as a general law of language-model computation.",
+      "recorded_keyword_probes": [
+        {
+          "source": "The-Singularity-is-Nearer---When-We-Merge-with-AI-Ray-Kurzweil.md",
+          "queries": [
+            "law of accelerating returns",
+            "^## WHERE ARE WE",
+            "^### WHAT DOES AI STILL",
+            "^### EXTENDING THE NEOCORTEX",
+            "^### “YOU 2”",
+            "longevity escape velocity",
+            "^## PERIL",
+            "2029",
+            "2045"
+          ],
+          "char_spans": [
+            [
+              9622,
+              11629
+            ],
+            [
+              15752,
+              17747
+            ],
+            [
+              108927,
+              110929
+            ],
+            [
+              137867,
+              139874
+            ],
+            [
+              176366,
+              178357
+            ],
+            [
+              353123,
+              355128
+            ],
+            [
+              514206,
+              516194
+            ],
+            [
+              19511,
+              21495
+            ]
+          ],
+          "chars": 15979
+        }
+      ]
+    },
+    {
+      "title": "We Are as Gods: A Survival Guide for the Age of Abundance — Peter H. Diamandis and Steven Kotler",
+      "source_context": "2026 copyright in supplied text",
+      "input": {
+        "filename": "We-Are-As-Gods-A-Survival-Guide-for-the-Age-of-Abundance-etc.md",
+        "sha256": "8487c6f7a17e10ba93208261423c009f547042b3af32fe762555d8d367a0ab77",
+        "format": "md",
+        "extracted_characters": 510389,
+        "estimated_tokens": 127597,
+        "extractor_detected_chapters": 2,
+        "corpus_lines": [
+          26454,
+          28530
+        ]
+      },
+      "reference": "references/reference-diamandis-kotler-we-are-as-gods.md",
+      "book_sections": 9,
+      "study_text_budget": 7800,
+      "reference_estimated_tokens": 3082,
+      "retained_framework_blocks": [
+        "Structure mapping",
+        "Bias Cascade",
+        "Truth Filters",
+        "First principles of abundance",
+        "Return of the Six Ds",
+        "Data-driven optimism",
+        "One Billion Times Smarter",
+        "Emotional, embedded, and agentic AI",
+        "Innovation bus and adjacent possible",
+        "Dark Side of Abundance",
+        "Engineered addiction",
+        "Abundance is not flourishing",
+        "Frame, mindset, and bias",
+        "Creativity Compass",
+        "Creativity microdosing",
+        "Purpose of purpose",
+        "Five mindsets",
+        "Flow follows focus",
+        "Protected practice",
+        "Centaur collaboration",
+        "Group flow and Syneurgy",
+        "Brain augmentation and consciousness engineering",
+        "Universe 25",
+        "Ten Commandments for AI-Augmented Creativity",
+        "Five intrinsic motivators",
+        "Life worth extending",
+        "Giga-XPRIZES"
+      ],
+      "framework_section_tokens": 2331,
+      "tokens_per_framework_block": 86.33,
+      "omitted_or_compressed": "Retained all nine chapter roles, five mindsets, five intrinsic motivators, ten AI-creativity principles in paraphrase, and core practice mechanisms. Compressed miracle analogies, speculative occupations, Giga-XPRIZE catalog, and trend appendices. Exact attention-bandwidth claims, goldfish comparisons, neuroscience multipliers, broad creativity-transfer claims, and categorical claims that AI cannot diverge are not endorsed.",
+      "recorded_keyword_probes": [
+        {
+          "source": "We-Are-As-Gods-A-Survival-Guide-for-the-Age-of-Abundance-etc.md",
+          "queries": [
+            "^#### Truth Filters",
+            "^#### The First Principles of Abundance",
+            "^#### The Bias Cascade",
+            "^#### Cognitive Filters",
+            "^#### The Creativity Compass",
+            "^#### The Purpose of Purpose",
+            "^#### Ticket to Flow",
+            "^#### Syneurgy",
+            "^#### The Ten Commandments for AI-Augmented Creativity",
+            "^#### A Playbook for Survival"
+          ],
+          "char_spans": [
+            [
+              53821,
+              55819
+            ],
+            [
+              56805,
+              58823
+            ],
+            [
+              39059,
+              41060
+            ],
+            [
+              240443,
+              242445
+            ],
+            [
+              248077,
+              250084
+            ],
+            [
+              255967,
+              257974
+            ],
+            [
+              276721,
+              278720
+            ],
+            [
+              298607,
+              300600
+            ],
+            [
+              349092,
+              351125
+            ],
+            [
+              358435,
+              360443
+            ]
+          ],
+          "chars": 20066
+        }
+      ]
+    },
+    {
+      "title": "What Technology Wants — Kevin Kelly",
+      "source_context": "2010",
+      "input": {
+        "filename": "What-Technology-Wants-Kevin-Kelly-z-librarysk-1libsk-z-libsk.md",
+        "sha256": "b1a9318db58ed8aa7c495bcf41d3c0d76f88b51796441cdc6ff93a009eeda300",
+        "format": "md",
+        "extracted_characters": 858295,
+        "estimated_tokens": 214573,
+        "extractor_detected_chapters": 1,
+        "corpus_lines": [
+          28534,
+          31408
+        ]
+      },
+      "reference": "references/reference-kelly-technium.md",
+      "book_sections": 14,
+      "study_text_budget": 8912,
+      "reference_estimated_tokens": 2752,
+      "retained_framework_blocks": [
+        "Technium",
+        "Inventing ourselves",
+        "Seventh kingdom",
+        "Exotropy",
+        "Deep progress",
+        "Ordained becoming and convergence",
+        "Listen to the technology",
+        "Choosing the inevitable",
+        "The Unabomber Was Right",
+        "Lessons of Amish Hackers",
+        "Seeking conviviality",
+        "Proactionary Principle",
+        "Anticipation",
+        "Continual Assessment",
+        "Prioritization of Risks, Including Natural Ones",
+        "Rapid Correction of Harm",
+        "Not Prohibition but Redirection",
+        "Efficiency and opportunity",
+        "Emergence and complexity",
+        "Diversity and specialization",
+        "Ubiquity and freedom",
+        "Mutualism and beauty",
+        "Sentience and structure",
+        "Evolvability",
+        "Playing the Infinite Game"
+      ],
+      "framework_section_tokens": 2079,
+      "tokens_per_framework_block": 83.16,
+      "omitted_or_compressed": "Retained all fourteen chapter roles through grouped sections, all thirteen trajectories, and all five proactions. Compressed evolutionary examples, personal travel narrative, and long technology histories. Exotropy, inevitable directions, and universal failure of prohibition remain attributed interpretation rather than adopted laws.",
+      "recorded_keyword_probes": [
+        {
+          "source": "What-Technology-Wants-Kevin-Kelly-z-librarysk-1libsk-z-libsk.md",
+          "queries": [
+            "technium",
+            "exotropy",
+            "proactionary",
+            "convivial",
+            "Amish",
+            "self-creation",
+            "^##### DIVERSITY",
+            "^##### EVOLVABILITY",
+            "twelve"
+          ],
+          "char_spans": [
+            [
+              28316,
+              30304
+            ],
+            [
+              115404,
+              117392
+            ],
+            [
+              523539,
+              525531
+            ],
+            [
+              486914,
+              488903
+            ],
+            [
+              6372,
+              8357
+            ],
+            [
+              233780,
+              235773
+            ],
+            [
+              573504,
+              575499
+            ],
+            [
+              700606,
+              702604
+            ],
+            [
+              164625,
+              166611
+            ]
+          ],
+          "chars": 17914
+        },
+        {
+          "source": "What-Technology-Wants-Kevin-Kelly-z-librarysk-1libsk-z-libsk.md",
+          "queries": [
+            "Amish.*experiment",
+            "voluntary",
+            "exotropy is",
+            "^##### EFFICIENCY",
+            "^##### OPPORTUNITY",
+            "convergent"
+          ],
+          "char_spans": [
+            [
+              472243,
+              474344
+            ],
+            [
+              175094,
+              177083
+            ],
+            [
+              129573,
+              131564
+            ],
+            [
+              209216,
+              211206
+            ]
+          ],
+          "chars": 8071
+        }
+      ]
+    },
+    {
+      "title": "Whole Earth Discipline: Why Dense Cities, Nuclear Power, Transgenic Crops, Restored Wildlands, and Geoengineering Are Necessary — Stewart Brand",
+      "source_context": "2009 with 2010 afterword",
+      "input": {
+        "filename": "Whole-earth-discipline-why-dense-cities-nuclear-power-transgenic-crops-restored-.md",
+        "sha256": "4b7fc7160bcb5677113130a593e8c722cf8f1d936bf26cc8182dd19b61236802",
+        "format": "md",
+        "extracted_characters": 877441,
+        "estimated_tokens": 219360,
+        "extractor_detected_chapters": 0,
+        "corpus_lines": [
+          31412,
+          45160
+        ]
+      },
+      "reference": "references/reference-brand-whole-earth-discipline.md",
+      "book_sections": 9,
+      "study_text_budget": 7800,
+      "reference_estimated_tokens": 2922,
+      "retained_framework_blocks": [
+        "Ecopragmatism",
+        "Scale and pace",
+        "Mitigation, adaptation, amelioration",
+        "Long Now",
+        "City Planet",
+        "Squatter cities",
+        "Demographic transition",
+        "Infrastructure and institutions",
+        "Baseload and footprint",
+        "Comparative risk",
+        "Waste stewardship and revisability",
+        "New reactor designs",
+        "Trait and context over category",
+        "Biotic controls",
+        "Agriculture's footprint",
+        "Microbes and genetic exchange",
+        "Precaution and the status quo",
+        "Different habits of judgment",
+        "Ideological lock-in",
+        "Historical human landscapes",
+        "Ecosystem engineering",
+        "Commons and reciprocal constraints",
+        "Restoration practice",
+        "Planet Craft",
+        "Monitoring and reversibility",
+        "Updating under events"
+      ],
+      "framework_section_tokens": 2210,
+      "tokens_per_framework_block": 85.0,
+      "omitted_or_compressed": "Retained all nine chapters plus the afterword’s updating stance. Compressed engineering catalogs and detailed climate scenarios. Omitted historical numerical projections as current evidence, site-specific grazing prescriptions, and unqualified safety claims. Bali’s downstream coral harm is retained so the commons example does not become an idealized success story.",
+      "recorded_keyword_probes": [],
+      "recovery": {
+        "filename": "Whole earth discipline  why dense cities, nuclear power, transgenic crops, restored wildlands and geoengineering are necessary (Brand, Stewart.pdf",
+        "sha256": "e53ce1ca737db35a75fd5d5744cccf69de7c1de9aaa7812570a32f21229ec496",
+        "method": "PyMuPDF text-layer extraction, all 356 pages",
+        "physical_pages": 356,
+        "recovered_characters": 741677,
+        "recovered_text_sha256": "0b4988c3d5962064ebe60fdb9d251064b451105c41237909b96663627a0e039f",
+        "recorded_keyword_probes": [
+          {
+            "source": "brand-recovered.txt",
+            "char_spans": [
+              [
+                138764,
+                141072
+              ],
+              [
+                68952,
+                71262
+              ],
+              [
+                95188,
+                97496
+              ],
+              [
+                187579,
+                189887
+              ],
+              [
+                178266,
+                180579
+              ],
+              [
+                270498,
+                272817
+              ],
+              [
+                361371,
+                363684
+              ],
+              [
+                39140,
+                41446
+              ],
+              [
+                45592,
+                47906
+              ],
+              [
+                66147,
+                68455
+              ]
+            ],
+            "chars": 23107
+          }
+        ],
+        "limits": "OCR/text-layer errors remain possible. Targeted prose, contents, and edition checks; no pixel-level verification of every page."
+      }
+    }
+  ],
+  "toolchain_files": [
+    {
+      "path": "scripts/extract.py",
+      "sha256": "01b1ebfff1ca9fddcda51544f9ddffee8fd242d99c48c8103faca85549da7ccf"
+    },
+    {
+      "path": "tools/validate_library.py",
+      "sha256": "06a349f4ea6b97a0f6c0a71b95ebb157af91af33bf26433edda553d8edf7a335"
+    },
+    {
+      "path": "tools/scan_generated_skill.py",
+      "sha256": "be4a5a83dca864b535c8012d5f25643592662611ca92ea807b9d25487fa4304f"
+    },
+    {
+      "path": "tools/reference_budget.py",
+      "sha256": "f454b865dd222886a5909c0c158bc20a461210f7cc1048cf9e459ad348f89d9d"
+    },
+    {
+      "path": "tools/count_tokens.py",
+      "sha256": "dafd46a8aab1e0a444ee7fae952830f4cc712419f3574f47cc7b91641f7d32f7"
+    },
+    {
+      "path": "tools/clean_slice.py",
+      "sha256": "1beee7cb4277fe7627e9500bf18b727177c4f604032a41cad1b12e4c37754cdd"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "fa21d7d2760051e3709ee0ad09a3badeed63579127d5b3ab40c4b8cf1db9b73f"
+    }
+  ],
+  "reading_telemetry": "Partial keyword-probe log; title/contents and some manual spans not fully instrumented. Not a complete token audit.",
+  "raw_sources_included": false,
+  "source_paths_published": false
+}
