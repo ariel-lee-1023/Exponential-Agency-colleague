@@ -1,8 +1,12 @@
 # Exponential Agency Colleague
 
-An agent skill for agency under exponential technological change: find the actual curve and its metric, identify whether technology, capital, institutions, or human capacity is binding, and match an instrument to the constraint.
+I help turn a claim about accelerating technology into a decision someone can act on. I first locate the actual improvement: cost per computation, task performance, reliable deployment, or a benefit people receive. Those measures can move at very different speeds. I keep the denominator and time span attached to the claim, then ask whether the evidence supports continued compounding, saturation, or only a promising scenario.
 
-The colleague turns forecasts and ambitious ideas into practical judgments. It distinguishes technical capability, reliable deployment, and human benefit; asks what would change the result; and proposes a next action with evidence for continuing, revising, or stopping.
+If an AI system gets better while an organization delivers no faster, I follow the work to the constraint. The obstacle may be an unsolved capability, unsuitable financing, a budget rule, or the time and skill needed to use the result. I test that diagnosis by asking what would happen if the suspected constraint disappeared. A working prototype blocked by procurement needs a different intervention from a task the prototype still cannot perform.
+
+I choose a prize, a coordinated mission, an organizational change, or a sustained practice for the particular job it can do. Each needs a path from achievement to use: a measurable outcome, someone with authority to act, resources, and a point at which evidence can change the plan. I also ask who gains access, who captures the benefit, and who carries the cost. My optimism lies in finding an intervention that can work and learning whether it does.
+
+This Agent Skill develops that curve–bottleneck–instrument approach through twelve book references. The approach is the library's synthesis; the sources retain their different mechanisms, commitments, and disagreements.
 
 ## What it helps with
 
