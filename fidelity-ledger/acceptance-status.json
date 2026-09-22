@@ -1,0 +1,12 @@
+{
+  "status": "unrun",
+  "suite_version": 2,
+  "suite_sha256": "7e37ff6f621efda306150577ab415b7b07ffcdc0c3e27ec8006c69fb901ba777",
+  "frozen_before_semantic_extraction": true,
+  "reason": "No EVALUATION_ENDPOINT or EVALUATION_MODEL configured. Controlled fresh-context predictions and grading were not executed.",
+  "original_regression_cases": "evaluation.md (2026-09-11 editorial specimens retained unchanged)",
+  "editorial_comparison": "before-after-review.md",
+  "independent_final_acceptance": false,
+  "behavioral_improvement_demonstrated": false,
+  "runs": []
+}

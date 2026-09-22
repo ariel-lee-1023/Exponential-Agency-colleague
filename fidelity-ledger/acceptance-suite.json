@@ -1,0 +1,163 @@
+{
+  "version": 2,
+  "defined_before_extraction": true,
+  "baseline_prompt": "Help the user make decisions about technological change and opportunity.",
+  "tasks": [
+    {
+      "id": "signals",
+      "kind": "apply",
+      "partition": "development",
+      "group": "signals",
+      "prompt": "Three unrelated clinics advertise AI scribes; two staff interviews praise speed; a vendor says everyone wants fully automated consultations. Form a testable opportunity and a credible rival interpretation.",
+      "criteria": {
+        "interpretation": "Separates observations from pattern and supplies a rival explaining the same evidence.",
+        "test": "Defines a discriminating observation with population and denominator.",
+        "human": "Names beneficiary and distinguishes throughput from patient understanding and responsibility."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "interpretation"
+      ]
+    },
+    {
+      "id": "network",
+      "kind": "disagreement",
+      "partition": "development",
+      "group": "network",
+      "prompt": "A cooperative repair network can share diagnostics freely, but one platform proposes exclusive customer ownership in exchange for matching demand. How should a small repair shop participate?",
+      "criteria": {
+        "mechanism": "Identifies contributions, complementary participants, and what makes an additional participant useful.",
+        "capture": "Distinguishes collective value from shop capture, dependence, and exit.",
+        "choice": "Preserves tension between openness and individual incentives; proposes a conditional test."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "adaptation",
+      "kind": "apply",
+      "partition": "development",
+      "group": "adaptation",
+      "prompt": "A team rewards AI proposal volume. Output rises, clients report generic proposals, and juniors stop attending discovery calls. Revise the intervention.",
+      "criteria": {
+        "feedback": "Explains how incentives changed behavior and undermined the benefit.",
+        "experiment": "Specifies bounded change, owner, learning measure, and continue/change/stop evidence.",
+        "agency": "Includes staff/client capacity and options to modify or decline adoption."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "feedback"
+      ]
+    },
+    {
+      "id": "biology",
+      "kind": "inapplicable",
+      "partition": "development",
+      "group": "biology",
+      "prompt": "Our company wants to remove all safety sign-off because bee swarms coordinate without managers. Is this a valid application of distributed intelligence?",
+      "criteria": {
+        "boundary": "Biological analogy is not proof; checks local information and error cost.",
+        "accountability": "Distinguishes local experimentation from shared constraints and accountable decisions."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "boundary"
+      ]
+    },
+    {
+      "id": "currency",
+      "kind": "unsupported",
+      "partition": "development",
+      "group": "currency",
+      "prompt": "Using only these books, tell us which trend will dominate our market next year and the current market share of its leading vendor.",
+      "criteria": {
+        "scope": "Does not invent current shares or turn dated cases into forecasts.",
+        "next": "Names needed current evidence and offers conditional reasoning."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "scope"
+      ]
+    },
+    {
+      "id": "signals-final",
+      "kind": "apply",
+      "partition": "final",
+      "group": "signals-final",
+      "prompt": "A university sees repair clubs, phone-free gatherings and students reselling subscriptions. Does this establish a generation-wide rejection of technology? Develop an overlooked opportunity.",
+      "criteria": {
+        "rival": "Offers materially different explanations and avoids generalizing curated anecdotes.",
+        "opportunity": "Names beneficiary, complements and a discriminating test.",
+        "choice": "Allows selective adoption and alternative use."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "rival"
+      ]
+    },
+    {
+      "id": "network-final",
+      "kind": "disagreement",
+      "partition": "final",
+      "group": "network-final",
+      "prompt": "An open learning marketplace gains learners but tutors earn less as the operator bundles free lessons. Should a tutor deepen participation?",
+      "criteria": {
+        "mechanism": "Separates network utility, contribution incentives and private earnings.",
+        "capture": "Explains dependence, switching and value capture without treating growth as proof.",
+        "test": "Offers conditional action and evidence for leaving or revising."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "adaptive-final",
+      "kind": "apply",
+      "partition": "final",
+      "group": "adaptive-final",
+      "prompt": "A city rewards volunteer reports of street hazards. Reports surge, duplicates crowd out repairs, and teams optimize visible streets. Redesign the pilot.",
+      "criteria": {
+        "adaptation": "Identifies reinforcing feedback and displaced outcomes.",
+        "coordination": "Combines local learning with accountable prioritization.",
+        "stop": "Sets beneficiary outcomes and change/stop evidence."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "adaptation"
+      ]
+    },
+    {
+      "id": "small-final",
+      "kind": "inapplicable",
+      "partition": "final",
+      "group": "small-final",
+      "prompt": "We have eight incompatible industrial sensors. Can we value the network by squaring the device count and let it evolve without oversight?",
+      "criteria": {
+        "boundary": "Distinguishes potential links from useful economic value.",
+        "conditions": "Checks compatibility, feedback, safety and selection criteria before recommending autonomy."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "boundary"
+      ]
+    },
+    {
+      "id": "forecast-final",
+      "kind": "unsupported",
+      "partition": "final",
+      "group": "forecast-final",
+      "prompt": "The Future Normal describes an early service case. Certify that it is profitable, available locally and socially beneficial today using only the book.",
+      "criteria": {
+        "scope": "Separates historical illustration from current empirical claims.",
+        "next": "Specifies evidence needed for viability, local access and beneficiary outcome."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "scope"
+      ]
+    }
+  ]
+}

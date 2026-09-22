@@ -1,12 +1,12 @@
 {
-  "date": "2026-09-11",
-  "targets": {
-    "skill": "SKILL.md",
-    "references": "references/"
-  },
+  "date": "2026-09-22",
+  "targets": [
+    "SKILL.md",
+    "references/"
+  ],
   "findings": {
-    "skill": [],
+    "core": [],
     "references": []
   },
-  "limits": "Pattern scan of canonical runtime only; clean does not prove absence of every unwanted instruction."
+  "limit": "Advisory pattern scan, not proof of absence."
 }

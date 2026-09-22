@@ -1,20 +1,41 @@
 {
-  "date": "2026-09-11",
-  "expected_references": 12,
-  "actual_references": 12,
-  "required_reference_sections": "pass",
-  "relative_markdown_links_checked": 29,
-  "relative_markdown_links": "pass",
-  "discovery_symlink": "../..; resolves to repository root",
-  "private_absolute_paths_and_asset_placeholders": "none in authored Markdown",
-  "arithmetic_cases": {
+  "date": "2026-09-22",
+  "stage": "staging",
+  "original_reference_hashes_preserved": [
+    "reference-mcafee-more-from-less.md",
+    "reference-azhar-exponential-gap.md",
+    "reference-kurzweil-singularity-nearer.md",
+    "reference-diamandis-kotler-bold.md",
+    "reference-kelly-technium.md",
+    "reference-christensen-innovators-dilemma.md",
+    "reference-brand-whole-earth-discipline.md",
+    "reference-roslings-factfulness.md",
+    "reference-diamandis-kotler-we-are-as-gods.md",
+    "reference-kelly-inevitable.md",
+    "reference-diamandis-kotler-abundance.md",
+    "reference-diamandis-kotler-convergence.md"
+  ],
+  "preexisting_AGENTS_edit_preserved": true,
+  "AGENTS_excluded_from_planned_commit": true,
+  "original_editorial_cases_preserved": true,
+  "discovery_symlink": "../..",
+  "local_links_valid": true,
+  "private_source_paths_found": [],
+  "canonical_references": 17,
+  "raw_manuscripts_included": false,
+  "mathematical_checks": {
     "component_cost_ratio": 0.9500000000000001,
     "total_material_ratio": 1.2000000000000002,
-    "ten_year_growth_at_10_percent": 2.5937424601000023
+    "directed_links_n4": 12,
+    "directed_links_n5": 20,
+    "n2_is_quadratic_not_exponential_in_n": true
   },
-  "runtime_sha256": {
-    "SKILL.md": "5609cdcc2917d2ee85abb538a0cb3ce63fee50002ce5660686bf3e3cecab0915",
+  "runtime_hashes": {
+    "SKILL.md": "eeced43222d5fb077284d3a36b52732478e381cef8d43c304469bd476380db19",
     "references/reference-azhar-exponential-gap.md": "b0539e11b2b9eebb47e28c9be09aa2c3353f7f3501cbb7b9757a0978ed7b9261",
+    "references/reference-bhargava-coutinho-mason-future-normal.md": "a518abd9e46bd800a8dff9d1222b5e7282ff3f58e0b92a2e6e661d9a35326264",
+    "references/reference-bhargava-dupont-thinking.md": "400fece283eeb85726035290c1f28bf10aa0a210a8c1c3bf05907fbb13f6e678",
+    "references/reference-bhargava-megatrends.md": "777ca81bcc909da93adbb4407781e89ea837d392b28aa4e113b6d3603087cb5a",
     "references/reference-brand-whole-earth-discipline.md": "1350759bf0435d91c1d43c5b021788e02adf7efa3f17ada0c95325128a67046c",
     "references/reference-christensen-innovators-dilemma.md": "1ba3082775f0ab5690731aaebd223ceff201092215850eddda839a4a3f5dcb88",
     "references/reference-diamandis-kotler-abundance.md": "483c4cdbefa879b13d7aa43bbaa4208a06f826dd8ae3559494928d81f7274d0c",
@@ -22,10 +43,11 @@
     "references/reference-diamandis-kotler-convergence.md": "cbfebee42a4192b071ff6cc9d228bf43d9cbb88c1431bbd668ffc63d230de8c3",
     "references/reference-diamandis-kotler-we-are-as-gods.md": "94e449c7c50935abeb2270677c205d38b38d92590611bb01b7520ca6542c86e1",
     "references/reference-kelly-inevitable.md": "7f633fd3fd4a430eb0b737500d88dba4044352c319b2a84f5b16cdeea4144521",
+    "references/reference-kelly-network-economy.md": "2759a9a4cc9ae92a84f610db586025196f0bec4ff593ad7566388371640bd301",
+    "references/reference-kelly-out-of-control.md": "f816c560968e981ec19838604ec603243116ee463c63df6cadca29aa46fa318f",
     "references/reference-kelly-technium.md": "ba75f1ad90c2572c45e0f550b5841a1b7e11b9da8b8f9a283d559e757cfdeeef",
     "references/reference-kurzweil-singularity-nearer.md": "c6c7be4583148b5ed0eb0f0b9b3d85630c2abe2eee0266f3053eb6a7e37a8564",
     "references/reference-mcafee-more-from-less.md": "cc2c66703a47a15ece2bf2a9a26c04a8183e4797fc60d0a130fee6663b53fb48",
     "references/reference-roslings-factfulness.md": "f93b277c02f2ce7f8c9ca19ac0522503c174e0ea0c319c3507ff3be8fde8323f"
-  },
-  "limitations": "Does not validate every source claim or external URL; editorial evaluation is separate."
+  }
 }

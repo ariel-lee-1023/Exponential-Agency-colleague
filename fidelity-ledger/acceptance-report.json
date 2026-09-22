@@ -1,0 +1,8 @@
+{
+  "date": "2026-09-22",
+  "status": "unrun",
+  "exit_code": 1,
+  "validator_stdout": "{\n  \"passed\": false,\n  \"error\": \"[Errno 2] No such file or directory: '<library>/fidelity-ledger/acceptance-results.json'\"\n}\n",
+  "validator_stderr": "",
+  "reason": "No model predictions or grades exist; no evaluation endpoint/model configured. This is not a passing behavioral report."
+}

@@ -5,9 +5,9 @@
     "skill_root": ".",
     "discovery_entry": ".agents/skills/exponential-agency-colleague",
     "layout": "published-repo",
-    "master_body_tokens": 4323,
-    "master_budget": 4925,
-    "master_capabilities": 7,
+    "master_body_tokens": 3267,
+    "master_budget": 3850,
+    "master_capabilities": 5,
     "references": {
       "reference-azhar-exponential-gap.md": {
         "tokens": 3089,
@@ -16,30 +16,6 @@
         "type": "text",
         "sections": 8,
         "budget": 7543
-      },
-      "reference-bhargava-coutinho-mason-future-normal.md": {
-        "tokens": 3256,
-        "cap": 14000,
-        "depth": "study",
-        "type": "text",
-        "sections": 30,
-        "budget": 11516
-      },
-      "reference-bhargava-dupont-thinking.md": {
-        "tokens": 2893,
-        "cap": 14000,
-        "depth": "study",
-        "type": "text",
-        "sections": 24,
-        "budget": 10648
-      },
-      "reference-bhargava-megatrends.md": {
-        "tokens": 3023,
-        "cap": 19500,
-        "depth": "study",
-        "type": "technical",
-        "sections": 14,
-        "budget": 11911
       },
       "reference-brand-whole-earth-discipline.md": {
         "tokens": 2922,
@@ -97,22 +73,6 @@
         "sections": 12,
         "budget": 8496
       },
-      "reference-kelly-network-economy.md": {
-        "tokens": 3191,
-        "cap": 14000,
-        "depth": "study",
-        "type": "text",
-        "sections": 10,
-        "budget": 8043
-      },
-      "reference-kelly-out-of-control.md": {
-        "tokens": 3689,
-        "cap": 19500,
-        "depth": "study",
-        "type": "technical",
-        "sections": 24,
-        "budget": 14428
-      },
       "reference-kelly-technium.md": {
         "tokens": 2752,
         "cap": 14000,
@@ -146,6 +106,6 @@
         "budget": 8275
       }
     },
-    "books": 17
+    "books": 12
   }
 }

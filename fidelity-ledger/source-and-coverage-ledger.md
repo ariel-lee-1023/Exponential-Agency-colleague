@@ -129,3 +129,8 @@ A conservative proxy that counts each bold framework block as one item gives abo
 ## Extending the library
 
 Add a source only when requested or clearly within an agreed extension. Verify title, edition, structure, and extraction quality; preserve one reference per book; update the core only where judgment changes; add a task trigger and provenance hash. Keep maintainer records here and runtime methods in references. Re-run the published-layout validator, separate instruction scans, links, section checks, and editorial boundary cases.
+
+
+## 2026-09-22 extension
+
+Five requested books were added; the twelve original references and their historical review remain unchanged. See [extension coverage and source context](fold-in-2026-09-22.md), [outside-selection audit](coverage-audit.md), and [before/after editorial comparison](before-after-review.md). The manifest now records 17 sources. Controlled behavioral acceptance is unrun; do not treat structural validation as measured reasoning improvement.

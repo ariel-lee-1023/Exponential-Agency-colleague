@@ -6,10 +6,17 @@ If an AI system gets better while an organization delivers no faster, I follow t
 
 I choose a prize, a coordinated mission, an organizational change, or a sustained practice for the particular job it can do. Each needs a path from achievement to use: a measurable outcome, someone with authority to act, resources, and a point at which evidence can change the plan. I also ask who gains access, who captures the benefit, and who carries the cost. My optimism lies in finding an intervention that can work and learning whether it does.
 
-This Agent Skill develops that curve–bottleneck–instrument approach through twelve book references. The approach is the library's synthesis; the sources retain their different mechanisms, commitments, and disagreements.
+If a team brings me scattered signs of change, I work out what they might mean before declaring a trend. Three new AI services could indicate a new need, a temporary subsidy, or several vendors copying the same pitch. I look for a rival explanation and an observation that would distinguish it. Then I ask how a worthwhile possibility would fit into someone’s ordinary work and which relationships would sustain it.
+
+For a team using AI to prepare proposals, I examine more than output. Faster drafts may make room for better client conversations—or let those conversations disappear. I ask what happens to staff development, authorship, and responsibility; who captures the gains; and whether people can change or decline the arrangement. If participants respond to a pilot in unexpected ways, I revise the incentives or division of work and identify evidence for continuing, changing direction, or stopping.
+
+This Agent Skill develops that curve–bottleneck–instrument approach through seventeen book references. The approach is the library's synthesis; the sources retain their different mechanisms, commitments, and disagreements.
 
 ## What it helps with
 
+- Turn scattered signals into a testable opportunity and a credible rival interpretation.
+- Examine network participation, contribution incentives, value capture, and dependence.
+- Revise interventions as participants adapt, combining local experimentation with shared responsibility.
 - Test claims about exponential growth, learning curves, adoption, and resource efficiency.
 - Diagnose AI adoption and innovation problems before buying more technology or prescribing more effort.
 - Choose among incentive prizes, coordinated missions, organizational changes, and sustained practice.
@@ -57,7 +64,7 @@ Only `SKILL.md` is the initial reasoning core. The host opens the small set of b
 ```text
 .
 ├── SKILL.md
-├── references/                         # 12 task-loaded book references
+├── references/                         # 17 task-loaded book references
 ├── AGENTS.md
 ├── README.md
 ├── LICENSE
@@ -73,6 +80,11 @@ There is one canonical runtime copy. The ledger documents extraction, source ide
 
 | Conceptual role | Book and author(s) | Source context |
 |---|---|---|
+| Pattern discovery and validation | **Non-Obvious Megatrends** — Rohit Bhargava | 2020; Haystack, ten megatrends, and selective retrospective review |
+| Observation and competing interpretations | **Non-Obvious Thinking** — Rohit Bhargava and Ben duPont | 2024; SIFT and all 24 practices |
+| Possibilities becoming ordinary practice | **The Future Normal** — Rohit Bhargava and Henry Coutinho-Mason | 2023; selected chapters across all three parts |
+| Adaptation and distributed coordination | **Out of Control** — Kevin Kelly | 1994 copyright; supplied Basic Books/Perseus issue, reissue date unconfirmed |
+| Networks, relationships, and economic opportunity | **New Rules for the New Economy** — Kevin Kelly | 1998 Viking ten-strategy book; distinct from the 1997 twelve-principle article |
 | Access, needs, and incentive prizes | **Abundance: The Future Is Better Than You Think** — Peter H. Diamandis and Steven Kotler | 2012; supplied Markdown |
 | Ambition, teams, staging, and crowd instruments | **Bold: How to Go Big, Create Wealth and Impact the World** — Peter H. Diamandis and Steven Kotler | 2015; supplied Markdown |
 | Institutional adaptation and power | **Exponential: How Accelerating Technology Is Leaving Us Behind and What to Do About It** — Azeem Azhar | 2021; title follows supplied text, whose filename uses another subtitle |
@@ -92,13 +104,15 @@ The corpus combines entrepreneurial advocacy, empirical explanation, institution
 
 Prices, benchmarks, population figures, product examples, policy details, clinical claims, and forecasts retain their source dates. A present-day decision requires current primary evidence. The references deliberately bound claims about inevitable progress, universal dematerialization, mind uploading, longevity escape velocity, flow multipliers, and human–AI superiority.
 
-This is a working framework library, not a current technology database, complete mission-policy theory, project-finance handbook, clinical guide, or replacement for the books. “Mission” design is an explicitly labeled synthesis from purpose, coordination, institutional adaptation, and delivery examples. The twelve requested books define this build; other books found in the source directory were not added.
+This is a working framework library, not a current technology database, complete mission-policy theory, project-finance handbook, clinical guide, or replacement for the books. “Mission” design is an explicitly labeled synthesis from purpose, coordination, institutional adaptation, and delivery examples. The original twelve books and five explicitly requested additions define this library. Other books found in the source directory were not added. The signal-to-experiment synthesis serves this library’s purpose; the source authors’ contributions are not presented as one jointly developed method.
 
 ## Provenance and review
 
-Built on 2026-09-11 with [Books-to-Skill-Refs](https://github.com/ariel-lee-1023/Books-to-Skill-Refs), using its extraction, selective reading, terminology, progressive-loading, and validation disciplines. This repository follows the requested published layout with root runtime files and a separate `fidelity-ledger/`.
+Built on 2026-09-11 and extended on 2026-09-22 with [Books-to-Skill-Refs](https://github.com/ariel-lee-1023/Books-to-Skill-Refs), using its extraction, selective reading, terminology, progressive-loading, and validation disciplines. This repository follows the requested published layout with root runtime files and a separate `fidelity-ledger/`.
 
 Two extraction problems were repaired: the Christensen Markdown contained only image placeholders and page markers, so all 319 companion-PDF pages were OCR-processed; Brand's Markdown had severe table fragmentation, so the cleaner companion-PDF text layer was used. Raw books and extracted text are not included. Source hashes and recovery details are in [the source manifest](fidelity-ledger/source-manifest.json).
+
+The extension’s [source selection and fidelity record](fidelity-ledger/fold-in-2026-09-22.md) documents editions, chapter choices, exceptions, and the [before/after editorial comparison](fidelity-ledger/before-after-review.md). A ten-case suite was frozen before semantic extraction. Controlled fresh-context model evaluation remains **unrun**: no evaluation endpoint and model were configured. The comparison is an editorial assessment of the changes, not demonstrated behavioral improvement.
 
 See [coverage and fidelity](fidelity-ledger/source-and-coverage-ledger.md), [editorial evaluation](fidelity-ledger/evaluation.md), and [structural validation](fidelity-ledger/validation.json). Editorial case review is a same-author walkthrough, not an independent model benchmark. Structural and instruction-pattern checks cannot establish factual completeness or prove absence of every unwanted instruction.
 

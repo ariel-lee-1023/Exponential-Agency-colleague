@@ -1,0 +1,42 @@
+{
+  "control": {
+    "unique_lines": 249,
+    "repeated_lines": 85,
+    "input_tokens": 20092,
+    "unresolved": [],
+    "coverage_fraction": 0.05875412930627655,
+    "budget_alert": false
+  },
+  "rules": {
+    "unique_lines": 365,
+    "repeated_lines": 84,
+    "input_tokens": 26234,
+    "unresolved": [],
+    "coverage_fraction": 0.20494104435710275,
+    "budget_alert": false
+  },
+  "future": {
+    "unique_lines": 439,
+    "repeated_lines": 73,
+    "input_tokens": 22805,
+    "unresolved": [],
+    "coverage_fraction": 0.1723596387907342,
+    "budget_alert": false
+  },
+  "thinking": {
+    "unique_lines": 901,
+    "repeated_lines": 120,
+    "input_tokens": 30036,
+    "unresolved": [],
+    "coverage_fraction": 0.6305108467459762,
+    "budget_alert": false
+  },
+  "trends": {
+    "unique_lines": 811,
+    "repeated_lines": 0,
+    "input_tokens": 13498,
+    "unresolved": [],
+    "coverage_fraction": 0.10314129467124507,
+    "budget_alert": false
+  }
+}

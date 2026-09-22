@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-22",
+  "origin": "https://github.com/ariel-lee-1023/Exponential-Agency-colleague.git",
+  "integration": "validated staged file differences into matching existing checkout; preserved .git/history and unrelated changes",
+  "discovery_symlink_valid": true,
+  "symlink_git_mode": "120000",
+  "structural_errors": [],
+  "structural_warnings": [],
+  "preexisting_AGENTS_edit_preserved": true,
+  "baseline_commit": "d43070fb464e009e4af94c94659f9b662c2e6b4b"
+}
