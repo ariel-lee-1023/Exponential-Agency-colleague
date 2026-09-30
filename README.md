@@ -12,7 +12,42 @@ For a team using AI to prepare proposals, I examine more than output. Faster dra
 
 This Agent Skill develops that curve–bottleneck–instrument approach through seventeen book references. The approach is the library's synthesis; the sources retain their different mechanisms, commitments, and disagreements.
 
-## What it helps with
+**Claim → curve → bottleneck → instrument → evidence for revision.**
+
+[Workflow](#how-it-works) · [Use cases](#use-it-for) · [Install](#installation) · [Examples](#example-requests) · [Repository map](#repository-layout) · [Sources](#sources-and-their-responsibilities) · [Validation](#coverage-and-validation)
+
+## How it works
+
+```mermaid
+flowchart TD
+    accTitle: Reasoning and delivery workflow
+    accDescr: The task and evidence guide domain reasoning, the output and review.
+    input["Technology claim, adoption problem or weak signal"]
+    frame["Identify the measure, time span and rival explanation"]
+    reason["Locate capability, financing, institutional or practice constraints"]
+    choice{"Which intervention fits the constraint?"}
+    primary["Prize, mission or organizational experiment"]
+    alternative["Practice or participation redesign"]
+    review["Observe adoption, distribution and reasons to change or stop"]
+    input --> frame --> reason --> choice
+    choice --> primary
+    choice --> alternative
+    primary --> review
+    alternative --> review
+    review -.->|Revisit when evidence changes| reason
+    classDef focus fill:#e0f2fe,stroke:#0369a1,color:#0c4a6e
+    classDef output fill:#dcfce7,stroke:#15803d,color:#14532d
+    classDef decision fill:#fef3c7,stroke:#b45309,color:#78350f
+    class frame,reason focus
+    class primary,alternative output
+    class choice,review decision
+```
+
+Claim → curve → bottleneck → instrument → evidence for revision. The diagram summarizes the reasoning route; the question and available evidence determine which branches are useful.
+
+## Use it for
+
+### What it helps with
 
 - Turn scattered signals into a testable opportunity and a credible rival interpretation.
 - Examine network participation, contribution incentives, value capture, and dependence.
@@ -25,7 +60,9 @@ This Agent Skill develops that curve–bottleneck–instrument approach through 
 
 The curve–bottleneck–instrument method and its four bottleneck categories are an editorial synthesis for this library. The books supply different mechanisms and judgments; they do not share one unified theory.
 
-## Use
+## Installation
+
+### Use
 
 Clone and open the repository as a project:
 
@@ -45,7 +82,7 @@ git clone https://github.com/ariel-lee-1023/Exponential-Agency-colleague.git \
 
 Follow the host's own discovery and reload behavior. An existing installation should be inspected and updated without overwriting local changes. No separate runtime, external service, or Python dependency is required to use the skill.
 
-Try:
+## Example requests
 
 > “Our AI benchmark improves rapidly, but delivery time barely changes. Locate the real bottleneck and propose a test.”
 
@@ -57,7 +94,31 @@ Try:
 
 > “Resource use per dollar fell 20%, while output grew 50%. Does that establish dematerialization?”
 
-## Progressive loading and layout
+## Repository layout
+
+```mermaid
+flowchart LR
+    accTitle: Repository structure and runtime loading
+    accDescr: The canonical core routes to references, while supporting files and maintenance records have separate roles.
+    root["Exponential-Agency-colleague/"]
+    root --> core["SKILL.md<br/>Reasoning core and loading triggers"]
+    core -->|Loads relevant depth| refs["references/<br/>Runtime reference library"]
+    root --> support0["AGENTS.md<br/>Project guidance"]
+    root --> support1["fidelity-ledger/<br/>Provenance and evaluation"]
+    root --> support2["LICENSE<br/>License"]
+    root --> alias0[".agents/skills/exponential-agency-colleague"]
+    alias0 -.->|Discovery alias| root
+    classDef runtime fill:#e0f2fe,stroke:#0369a1,color:#0c4a6e
+    classDef support fill:#f1f5f9,stroke:#64748b,color:#334155
+    class core,refs runtime
+    class support0,support1,support2 support
+```
+
+[Expert core](SKILL.md) · [Reference library](references/) · [Project guidance](AGENTS.md) · [Provenance and evaluation](fidelity-ledger/) · [License](LICENSE).
+
+The map reflects the repository’s existing architecture. Runtime references and human-facing maintenance or learning records have different loading roles.
+
+### Progressive loading and layout
 
 Only `SKILL.md` is the initial reasoning core. The host opens the small set of book references relevant to the question. Every book has one standalone file with a mental model, frameworks, one reconstructed worked example, decision rules, and takeaways. Detailed comparisons load several sources when their different contributions matter.
 
@@ -76,7 +137,38 @@ Only `SKILL.md` is the initial reasoning core. The host opens the small set of b
 
 There is one canonical runtime copy. The ledger documents extraction, source identity, coverage choices, editorial review, and actual checks; it is not part of the domain-loading table.
 
-## Sources
+## Sources and their responsibilities
+
+```mermaid
+flowchart LR
+    accTitle: Sources and their primary responsibilities
+    accDescr: Task responsibilities connect the expert to its source material; groupings do not imply author agreement.
+    core["Expert core and task router"]
+    core --> g0["Signals and adaptation"]
+    g0 --> s0_0["Bhargava · Non-Obvious Megatrends<br/>Bhargava &amp; duPont · Non-Obvious Thinking<br/>Bhargava &amp; Coutinho-Mason · The Future Normal"]
+    g0 --> s0_1["Kelly · Out of Control<br/>Kelly · New Rules for the New Economy"]
+    classDef group0 fill:#ede9fe,stroke:#7c3aed,color:#4c1d95
+    class g0,s0_0,s0_1 group0
+    core --> g1["Instruments and deployment"]
+    g1 --> s1_0["Diamandis &amp; Kotler · Abundance<br/>Diamandis &amp; Kotler · Bold<br/>Diamandis &amp; Kotler · The Future Is Faster Than You Think"]
+    g1 --> s1_1["Christensen · The Innovator’s Dilemma"]
+    classDef group1 fill:#dcfce7,stroke:#15803d,color:#14532d
+    class g1,s1_0,s1_1 group1
+    core --> g2["Claims and institutions"]
+    g2 --> s2_0["Azhar · Exponential<br/>Rosling et al. · Factfulness<br/>McAfee · More from Less"]
+    g2 --> s2_1["Kurzweil · The Singularity Is Nearer"]
+    classDef group2 fill:#fef3c7,stroke:#b45309,color:#78350f
+    class g2,s2_0,s2_1 group2
+    core --> g3["Purpose and stewardship"]
+    g3 --> s3_0["Kelly · The Inevitable<br/>Kelly · What Technology Wants<br/>Diamandis &amp; Kotler · We Are as Gods"]
+    g3 --> s3_1["Brand · Whole Earth Discipline"]
+    classDef group3 fill:#e0f2fe,stroke:#0369a1,color:#0c4a6e
+    class g3,s3_0,s3_1 group3
+    classDef focus fill:#e0f2fe,stroke:#0369a1,color:#0c4a6e
+    class core focus
+```
+
+Connections show primary contributions, not a required reading order or agreement among authors. Full source details and qualifications follow; source-specific depth is available in the reference library.
 
 | Conceptual role | Book and author(s) | Source context |
 |---|---|---|
@@ -98,15 +190,9 @@ There is one canonical runtime copy. The ledger documents extraction, source ide
 | Technological tendencies and selective adoption | **What Technology Wants** — Kevin Kelly | 2010; supplied Markdown |
 | Ecopragmatism and stewardship | **Whole Earth Discipline: Why Dense Cities, Nuclear Power, Transgenic Crops, Restored Wildlands, and Geoengineering Are Necessary** — Stewart Brand | 2009 book with 2010 afterword; cleaner text recovered from companion PDF |
 
-## Scope and evidence
+## Coverage and validation
 
-The corpus combines entrepreneurial advocacy, empirical explanation, institutional analysis, philosophical interpretation, and speculative forecasts. The skill preserves those differences. It neither assumes technological optimism is always correct nor treats every new capability as a threat.
-
-Prices, benchmarks, population figures, product examples, policy details, clinical claims, and forecasts retain their source dates. A present-day decision requires current primary evidence. The references deliberately bound claims about inevitable progress, universal dematerialization, mind uploading, longevity escape velocity, flow multipliers, and human–AI superiority.
-
-This is a working framework library, not a current technology database, complete mission-policy theory, project-finance handbook, clinical guide, or replacement for the books. “Mission” design is an explicitly labeled synthesis from purpose, coordination, institutional adaptation, and delivery examples. The original twelve books and five explicitly requested additions define this library. Other books found in the source directory were not added. The signal-to-experiment synthesis serves this library’s purpose; the source authors’ contributions are not presented as one jointly developed method.
-
-## Provenance and review
+### Provenance and review
 
 Built on 2026-09-11 and extended on 2026-09-22 with [Books-to-Skill-Refs](https://github.com/ariel-lee-1023/Books-to-Skill-Refs), using its extraction, selective reading, terminology, progressive-loading, and validation disciplines. This repository follows the requested published layout with root runtime files and a separate `fidelity-ledger/`.
 
@@ -115,6 +201,16 @@ Two extraction problems were repaired: the Christensen Markdown contained only i
 The extension’s [source selection and fidelity record](fidelity-ledger/fold-in-2026-09-22.md) documents editions, chapter choices, exceptions, and the [before/after editorial comparison](fidelity-ledger/before-after-review.md). A ten-case suite was frozen before semantic extraction. Controlled fresh-context model evaluation remains **unrun**: no evaluation endpoint and model were configured. The comparison is an editorial assessment of the changes, not demonstrated behavioral improvement.
 
 See [coverage and fidelity](fidelity-ledger/source-and-coverage-ledger.md), [editorial evaluation](fidelity-ledger/evaluation.md), and [structural validation](fidelity-ledger/validation.json). Editorial case review is a same-author walkthrough, not an independent model benchmark. Structural and instruction-pattern checks cannot establish factual completeness or prove absence of every unwanted instruction.
+
+## Limits
+
+### Scope and evidence
+
+The corpus combines entrepreneurial advocacy, empirical explanation, institutional analysis, philosophical interpretation, and speculative forecasts. The skill preserves those differences. It neither assumes technological optimism is always correct nor treats every new capability as a threat.
+
+Prices, benchmarks, population figures, product examples, policy details, clinical claims, and forecasts retain their source dates. A present-day decision requires current primary evidence. The references deliberately bound claims about inevitable progress, universal dematerialization, mind uploading, longevity escape velocity, flow multipliers, and human–AI superiority.
+
+This is a working framework library, not a current technology database, complete mission-policy theory, project-finance handbook, clinical guide, or replacement for the books. “Mission” design is an explicitly labeled synthesis from purpose, coordination, institutional adaptation, and delivery examples. The original twelve books and five explicitly requested additions define this library. Other books found in the source directory were not added. The signal-to-experiment synthesis serves this library’s purpose; the source authors’ contributions are not presented as one jointly developed method.
 
 ## License
 
